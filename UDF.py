@@ -8,9 +8,6 @@ data = [
     (1200, 0.07, 4)   # $1200 at 7% interest for 4 years
 ]
 
-
-
-
 # Define schema for the DataFrame
 schema = ["principal", "rate", "time"]
 df = spark.createDataFrame(data, schema=schema)
